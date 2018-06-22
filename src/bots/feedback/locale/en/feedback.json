@@ -1,0 +1,9 @@
+{
+    "feedback.welcome": "Welcome to the Feedback bot! Please, tell me your feedback",
+    "feedback.received": ["Thank you, I will forward it to the right person", "Your opinion is important to us. I will send it to the right person"],
+    "feedback.whatNow": "If you have more feedback, just tell me",
+    "feedback.finishConfirmation": "Are you sure you want to finish talking to the Feedback bot?",
+    "feedback.finishOption": "Finish",
+    "feedback.finishConfirmed": "Ok",
+    "feedback.finishUnconfirmed": "Sure thing"
+}

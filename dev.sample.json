@@ -1,0 +1,34 @@
+{
+  "MicrosoftAppId": "",
+  "MicrosoftAppPassword": "",
+
+  "COSMOSDB_host": "https://<<your cosmosDB>>.documents.azure.com:443/",
+  "COSMOSDB_key": "<<your cosmosDB key>>",
+
+  "Master_LUIS_appId_EN": "<<your LUIS app id, English version>>",
+  "Master_LUIS_appId_ES": "<<your LUIS app id, Spanish version>>",
+  "Master_LUIS_apiKey": "<<your LUIS api key>>",
+  "Master_LUIS_apiHostName": "https://<<your LUIS region>>.api.cognitive.microsoft.com/luis/v2.0/apps",
+
+  "Feedback_LUIS_appId_EN": "<<your LUIS app id, English version>>",
+  "Feedback_LUIS_appId_ES": "<<your LUIS app id, Spanish version>>",
+  "Feedback_LUIS_apiKey": "<<your LUIS api key>>",
+  "Feedback_LUIS_apiHostName": "https://<<your LUIS region>>.api.cognitive.microsoft.com/luis/v2.0/apps",
+
+  "Complaints_LUIS_appId_EN": "<<your LUIS app id, English version>>",
+  "Complaints_LUIS_appId_ES": "<<your LUIS app id, Spanish version>>",
+  "Complaints_LUIS_apiKey": "<<your LUIS api key>>",
+  "Complaints_LUIS_apiHostName": "https://<<your LUIS region>>.api.cognitive.microsoft.com/luis/v2.0/apps",
+
+  "Faq_LUIS_appId_EN": "<<your LUIS app id, English version>>",
+  "Faq_LUIS_appId_ES": "<<your LUIS app id, Spanish version>>",
+  "Faq_LUIS_apiKey": "<<your LUIS api key>>",
+  "Faq_LUIS_apiHostName": "https://<<your LUIS region>>.api.cognitive.microsoft.com/luis/v2.0/apps",
+  "Faq_QnA_kbId_EN": "<<your QnA Maker KB id, English version>>",
+  "Faq_QnA_kbId_ES": "<<your QnA Maker KB id, Spanish version>>",
+  "Faq_QnA_kbSubscriptionKey": "<<your QnA Maker KB subscription key",
+  "Faq_QnA_host": "https://<<your QnA Maker host>>.azurewebsites.net/qnamaker",
+
+  "BotDevAppInsightsKey": "<<your App Insights key>>",
+  "CG_SENTIMENT_KEY": "<< your Cognitive Services Text Analytics Key. This is optional>>"
+}

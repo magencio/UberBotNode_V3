@@ -1,0 +1,424 @@
+{
+  "luis_schema_version": "3.0.0",
+  "versionId": "0.1",
+  "name": "UberBot_Master_ES",
+  "desc": "",
+  "culture": "es-es",
+  "intents": [
+    {
+      "name": "child.complaints"
+    },
+    {
+      "name": "child.faq"
+    },
+    {
+      "name": "child.feedback"
+    },
+    {
+      "name": "command.cancel"
+    },
+    {
+      "name": "confirmation.no"
+    },
+    {
+      "name": "confirmation.yes"
+    },
+    {
+      "name": "master.hi"
+    },
+    {
+      "name": "master.home"
+    },
+    {
+      "name": "master.language"
+    },
+    {
+      "name": "None"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [
+    {
+      "name": "language",
+      "subLists": [
+        {
+          "canonicalForm": "English",
+          "list": [
+            "Inglés",
+            "Ingles"
+          ]
+        },
+        {
+          "canonicalForm": "Español",
+          "list": [
+            "Spanish"
+          ]
+        }
+      ],
+      "roles": []
+    }
+  ],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [],
+  "model_features": [
+    {
+      "name": "Yes",
+      "mode": true,
+      "words": "sí, si",
+      "activated": true
+    }
+  ],
+  "regex_features": [],
+  "patterns": [
+    {
+      "pattern": "i want to speak {language}",
+      "intent": "master.language"
+    },
+    {
+      "pattern": "change language to {language}",
+      "intent": "master.language"
+    },
+    {
+      "pattern": "quiero hablar en {language}",
+      "intent": "master.language"
+    },
+    {
+      "pattern": "cambiar el idioma a {language}",
+      "intent": "master.language"
+    }
+  ],
+  "utterances": [
+    {
+      "text": "buenas noches",
+      "intent": "master.hi",
+      "entities": []
+    },
+    {
+      "text": "buenas tardes",
+      "intent": "master.hi",
+      "entities": []
+    },
+    {
+      "text": "buenas!",
+      "intent": "master.hi",
+      "entities": []
+    },
+    {
+      "text": "buenos días",
+      "intent": "master.hi",
+      "entities": []
+    },
+    {
+      "text": "cambiar de idioma",
+      "intent": "master.language",
+      "entities": []
+    },
+    {
+      "text": "cambiar el idioma a inglés",
+      "intent": "master.language",
+      "entities": []
+    },
+    {
+      "text": "cambiar idioma",
+      "intent": "master.language",
+      "entities": []
+    },
+    {
+      "text": "cancelar",
+      "intent": "command.cancel",
+      "entities": []
+    },
+    {
+      "text": "change language",
+      "intent": "master.language",
+      "entities": []
+    },
+    {
+      "text": "change language to spanish",
+      "intent": "master.language",
+      "entities": []
+    },
+    {
+      "text": "comenzar de nuevo",
+      "intent": "master.home",
+      "entities": []
+    },
+    {
+      "text": "departamento de quejas",
+      "intent": "child.complaints",
+      "entities": []
+    },
+    {
+      "text": "feedback",
+      "intent": "child.feedback",
+      "entities": []
+    },
+    {
+      "text": "hablar otro idioma",
+      "intent": "master.language",
+      "entities": []
+    },
+    {
+      "text": "hi",
+      "intent": "master.hi",
+      "entities": []
+    },
+    {
+      "text": "hola",
+      "intent": "master.hi",
+      "entities": []
+    },
+    {
+      "text": "i want to speak english",
+      "intent": "master.language",
+      "entities": []
+    },
+    {
+      "text": "idioma",
+      "intent": "master.language",
+      "entities": []
+    },
+    {
+      "text": "me gustaría preguntar algo",
+      "intent": "child.faq",
+      "entities": []
+    },
+    {
+      "text": "me quiero quejar",
+      "intent": "child.complaints",
+      "entities": []
+    },
+    {
+      "text": "menú",
+      "intent": "master.home",
+      "entities": []
+    },
+    {
+      "text": "no",
+      "intent": "confirmation.no",
+      "entities": []
+    },
+    {
+      "text": "no quiero",
+      "intent": "confirmation.no",
+      "entities": []
+    },
+    {
+      "text": "no, gracias",
+      "intent": "confirmation.no",
+      "entities": []
+    },
+    {
+      "text": "nope",
+      "intent": "confirmation.no",
+      "entities": []
+    },
+    {
+      "text": "opinión",
+      "intent": "child.feedback",
+      "entities": []
+    },
+    {
+      "text": "por supuesto",
+      "intent": "confirmation.yes",
+      "entities": []
+    },
+    {
+      "text": "pregunta",
+      "intent": "child.faq",
+      "entities": []
+    },
+    {
+      "text": "preguntas",
+      "intent": "child.faq",
+      "entities": []
+    },
+    {
+      "text": "preguntas frecuentes",
+      "intent": "child.faq",
+      "entities": []
+    },
+    {
+      "text": "queja",
+      "intent": "child.complaints",
+      "entities": []
+    },
+    {
+      "text": "quejas",
+      "intent": "child.complaints",
+      "entities": []
+    },
+    {
+      "text": "quiero cancelar esto",
+      "intent": "command.cancel",
+      "entities": []
+    },
+    {
+      "text": "quiero comentar algo",
+      "intent": "child.feedback",
+      "entities": []
+    },
+    {
+      "text": "quiero dar feedback",
+      "intent": "child.feedback",
+      "entities": []
+    },
+    {
+      "text": "quiero dar mi opinión",
+      "intent": "child.feedback",
+      "entities": []
+    },
+    {
+      "text": "quiero hablar con el departamento de quejas",
+      "intent": "child.complaints",
+      "entities": []
+    },
+    {
+      "text": "quiero hablar en español",
+      "intent": "master.language",
+      "entities": []
+    },
+    {
+      "text": "quiero poner una queja",
+      "intent": "child.complaints",
+      "entities": []
+    },
+    {
+      "text": "quiero preguntar",
+      "intent": "child.faq",
+      "entities": []
+    },
+    {
+      "text": "quiero proponer algo",
+      "intent": "child.feedback",
+      "entities": []
+    },
+    {
+      "text": "quiero quejarme",
+      "intent": "child.complaints",
+      "entities": []
+    },
+    {
+      "text": "quiero realizar una pregunta",
+      "intent": "child.faq",
+      "entities": []
+    },
+    {
+      "text": "raiz",
+      "intent": "master.home",
+      "entities": []
+    },
+    {
+      "text": "sácame de aquí",
+      "intent": "command.cancel",
+      "entities": []
+    },
+    {
+      "text": "salir",
+      "intent": "command.cancel",
+      "entities": []
+    },
+    {
+      "text": "salir de aquí",
+      "intent": "command.cancel",
+      "entities": []
+    },
+    {
+      "text": "si",
+      "intent": "confirmation.yes",
+      "entities": []
+    },
+    {
+      "text": "sí",
+      "intent": "confirmation.yes",
+      "entities": []
+    },
+    {
+      "text": "sí claro",
+      "intent": "confirmation.yes",
+      "entities": []
+    },
+    {
+      "text": "sí gracias",
+      "intent": "confirmation.yes",
+      "entities": []
+    },
+    {
+      "text": "sí quiero",
+      "intent": "confirmation.yes",
+      "entities": []
+    },
+    {
+      "text": "si, claro",
+      "intent": "confirmation.yes",
+      "entities": []
+    },
+    {
+      "text": "sí, gracias",
+      "intent": "confirmation.yes",
+      "entities": []
+    },
+    {
+      "text": "sí, por supuesto",
+      "intent": "confirmation.yes",
+      "entities": []
+    },
+    {
+      "text": "sí, quiero",
+      "intent": "confirmation.yes",
+      "entities": []
+    },
+    {
+      "text": "sip",
+      "intent": "confirmation.yes",
+      "entities": []
+    },
+    {
+      "text": "sugerencia",
+      "intent": "child.feedback",
+      "entities": []
+    },
+    {
+      "text": "sugerencias",
+      "intent": "child.feedback",
+      "entities": []
+    },
+    {
+      "text": "tengo sugerencias",
+      "intent": "child.feedback",
+      "entities": []
+    },
+    {
+      "text": "terminar",
+      "intent": "command.cancel",
+      "entities": []
+    },
+    {
+      "text": "utilizar otro idioma",
+      "intent": "master.language",
+      "entities": []
+    },
+    {
+      "text": "volver",
+      "intent": "command.cancel",
+      "entities": []
+    },
+    {
+      "text": "volver al comienzo",
+      "intent": "master.home",
+      "entities": []
+    },
+    {
+      "text": "volver al menú principal",
+      "intent": "master.home",
+      "entities": []
+    },
+    {
+      "text": "volver al principio",
+      "intent": "master.home",
+      "entities": []
+    }
+  ]
+}

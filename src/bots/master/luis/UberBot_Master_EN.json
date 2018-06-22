@@ -1,0 +1,392 @@
+{
+  "luis_schema_version": "3.0.0",
+  "versionId": "0.1",
+  "name": "UberBot_Master_EN",
+  "desc": "",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "child.complaints"
+    },
+    {
+      "name": "child.faq"
+    },
+    {
+      "name": "child.feedback"
+    },
+    {
+      "name": "command.cancel"
+    },
+    {
+      "name": "confirmation.no"
+    },
+    {
+      "name": "confirmation.yes"
+    },
+    {
+      "name": "master.hi"
+    },
+    {
+      "name": "master.home"
+    },
+    {
+      "name": "master.language"
+    },
+    {
+      "name": "None"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [
+    {
+      "name": "language",
+      "subLists": [
+        {
+          "canonicalForm": "English",
+          "list": [
+            "Ingles",
+            "inglés"
+          ]
+        },
+        {
+          "canonicalForm": "Español",
+          "list": [
+            "Spanish"
+          ]
+        }
+      ],
+      "roles": []
+    }
+  ],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [],
+  "model_features": [],
+  "regex_features": [],
+  "patterns": [
+    {
+      "pattern": "quiero hablar {language}",
+      "intent": "master.language"
+    },
+    {
+      "pattern": "cambiar idioma a {language}",
+      "intent": "master.language"
+    },
+    {
+      "pattern": "i want to speak in {language}",
+      "intent": "master.language"
+    },
+    {
+      "pattern": "change language to {language}",
+      "intent": "master.language"
+    }
+  ],
+  "utterances": [
+    {
+      "text": "ask questions",
+      "intent": "child.faq",
+      "entities": []
+    },
+    {
+      "text": "cambiar idioma a inglés",
+      "intent": "master.language",
+      "entities": []
+    },
+    {
+      "text": "cancel",
+      "intent": "command.cancel",
+      "entities": []
+    },
+    {
+      "text": "cancel this",
+      "intent": "command.cancel",
+      "entities": []
+    },
+    {
+      "text": "change language",
+      "intent": "master.language",
+      "entities": []
+    },
+    {
+      "text": "change language to spanish",
+      "intent": "master.language",
+      "entities": []
+    },
+    {
+      "text": "complaint",
+      "intent": "child.complaints",
+      "entities": []
+    },
+    {
+      "text": "complaints",
+      "intent": "child.complaints",
+      "entities": []
+    },
+    {
+      "text": "exit",
+      "intent": "command.cancel",
+      "entities": []
+    },
+    {
+      "text": "exit from here",
+      "intent": "command.cancel",
+      "entities": []
+    },
+    {
+      "text": "faq",
+      "intent": "child.faq",
+      "entities": []
+    },
+    {
+      "text": "feedback",
+      "intent": "child.feedback",
+      "entities": []
+    },
+    {
+      "text": "file a complaint",
+      "intent": "child.complaints",
+      "entities": []
+    },
+    {
+      "text": "finish",
+      "intent": "command.cancel",
+      "entities": []
+    },
+    {
+      "text": "frecuently asked questions",
+      "intent": "child.faq",
+      "entities": []
+    },
+    {
+      "text": "get me out of here",
+      "intent": "command.cancel",
+      "entities": []
+    },
+    {
+      "text": "give feedback",
+      "intent": "child.feedback",
+      "entities": []
+    },
+    {
+      "text": "go back",
+      "intent": "command.cancel",
+      "entities": []
+    },
+    {
+      "text": "go home",
+      "intent": "master.home",
+      "entities": []
+    },
+    {
+      "text": "go to menu",
+      "intent": "master.home",
+      "entities": []
+    },
+    {
+      "text": "go to options",
+      "intent": "master.home",
+      "entities": []
+    },
+    {
+      "text": "good afternoon",
+      "intent": "master.hi",
+      "entities": []
+    },
+    {
+      "text": "good evening",
+      "intent": "master.hi",
+      "entities": []
+    },
+    {
+      "text": "good morning",
+      "intent": "master.hi",
+      "entities": []
+    },
+    {
+      "text": "good night",
+      "intent": "master.hi",
+      "entities": []
+    },
+    {
+      "text": "hello",
+      "intent": "master.hi",
+      "entities": []
+    },
+    {
+      "text": "hello there",
+      "intent": "master.hi",
+      "entities": []
+    },
+    {
+      "text": "hi",
+      "intent": "master.hi",
+      "entities": []
+    },
+    {
+      "text": "hi there",
+      "intent": "master.hi",
+      "entities": []
+    },
+    {
+      "text": "hi!",
+      "intent": "master.hi",
+      "entities": []
+    },
+    {
+      "text": "home",
+      "intent": "master.home",
+      "entities": []
+    },
+    {
+      "text": "i am not happy about your products",
+      "intent": "child.complaints",
+      "entities": []
+    },
+    {
+      "text": "i need info",
+      "intent": "child.faq",
+      "entities": []
+    },
+    {
+      "text": "i need to complain about something",
+      "intent": "child.complaints",
+      "entities": []
+    },
+    {
+      "text": "i need to provide feedback",
+      "intent": "child.feedback",
+      "entities": []
+    },
+    {
+      "text": "i want to ask some questions",
+      "intent": "child.faq",
+      "entities": []
+    },
+    {
+      "text": "i want to cancel",
+      "intent": "command.cancel",
+      "entities": []
+    },
+    {
+      "text": "i want to change languages",
+      "intent": "master.language",
+      "entities": []
+    },
+    {
+      "text": "i want to change the language",
+      "intent": "master.language",
+      "entities": []
+    },
+    {
+      "text": "i want to complain",
+      "intent": "child.complaints",
+      "entities": []
+    },
+    {
+      "text": "i want to give feedback",
+      "intent": "child.feedback",
+      "entities": []
+    },
+    {
+      "text": "i want to query your faq",
+      "intent": "child.faq",
+      "entities": []
+    },
+    {
+      "text": "i want to speak in english",
+      "intent": "master.language",
+      "entities": []
+    },
+    {
+      "text": "i want to tell my opinion",
+      "intent": "child.feedback",
+      "entities": []
+    },
+    {
+      "text": "i want to tell you what i think",
+      "intent": "child.feedback",
+      "entities": []
+    },
+    {
+      "text": "language",
+      "intent": "master.language",
+      "entities": []
+    },
+    {
+      "text": "let me out",
+      "intent": "command.cancel",
+      "entities": []
+    },
+    {
+      "text": "menu",
+      "intent": "master.home",
+      "entities": []
+    },
+    {
+      "text": "no",
+      "intent": "confirmation.no",
+      "entities": []
+    },
+    {
+      "text": "no thank you",
+      "intent": "confirmation.no",
+      "entities": []
+    },
+    {
+      "text": "no thanks",
+      "intent": "confirmation.no",
+      "entities": []
+    },
+    {
+      "text": "no, i don't",
+      "intent": "confirmation.no",
+      "entities": []
+    },
+    {
+      "text": "nope",
+      "intent": "confirmation.no",
+      "entities": []
+    },
+    {
+      "text": "options",
+      "intent": "master.home",
+      "entities": []
+    },
+    {
+      "text": "provide feedback",
+      "intent": "child.feedback",
+      "entities": []
+    },
+    {
+      "text": "quiero hablar español",
+      "intent": "master.language",
+      "entities": []
+    },
+    {
+      "text": "sure thing!",
+      "intent": "confirmation.yes",
+      "entities": []
+    },
+    {
+      "text": "yes",
+      "intent": "confirmation.yes",
+      "entities": []
+    },
+    {
+      "text": "yes i do",
+      "intent": "confirmation.yes",
+      "entities": []
+    },
+    {
+      "text": "yes of course",
+      "intent": "confirmation.yes",
+      "entities": []
+    },
+    {
+      "text": "yes please",
+      "intent": "confirmation.yes",
+      "entities": []
+    }
+  ]
+}

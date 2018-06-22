@@ -1,0 +1,9 @@
+{
+    "complaints.welcome": "Bienvenido al bot de Quejas. Por favor, dime tu queja",
+    "complaints.received": ["Muchas gracias, se la haré llegar a la persona adecuada", "Tu opinión es muy importante para nosotros. Se la enviaré a la persona adecuada"],
+    "complaints.whatNow": "Si tienes alguna otra queja, dímela",
+    "complaints.finishConfirmation": "¿Estás seguro de que quieres terminar de hablar con el bot de Quejas?",
+    "complaints.finishOption": "Terminar",
+    "complaints.finishConfirmed": "Ok",
+    "complaints.finishUnconfirmed": "De acuerdo"
+}

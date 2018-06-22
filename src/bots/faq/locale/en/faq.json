@@ -1,0 +1,9 @@
+{
+    "faq.welcome": "Welcome to the FAQ bot! Please, ask me some question",
+    "faq.whatNow": "If you have more questions, just ask me",
+    "faq.finishConfirmation": "Are you sure you want to finish talking to the FAQ bot?",
+    "faq.finishOption": "Finish",
+    "faq.finishConfirmed": "Ok",
+    "faq.finishUnconfirmed": "Sure thing",
+    "qna.notFound": "Sorry, I couldn't find the answer"
+}

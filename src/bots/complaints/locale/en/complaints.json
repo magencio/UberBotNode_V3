@@ -1,0 +1,9 @@
+{
+    "complaints.welcome": "Welcome to the Complaints bot. Please, tell me your complaint",
+    "complaints.received": ["Thank you, I will forward it to the right person", "Your opinion is important to us. I will send it to the right person"],
+    "complaints.whatNow": "If you have more complaints, just tell me",
+    "complaints.finishConfirmation": "Are you sure you want to finish talking to the Complaints bot?",
+    "complaints.finishOption": "Finish",
+    "complaints.finishConfirmed": "Ok",
+    "complaints.finishUnconfirmed": "Sure thing"
+}

@@ -1,0 +1,81 @@
+{
+  "luis_schema_version": "3.0.0",
+  "versionId": "0.1",
+  "name": "UberBot_Faq_ES",
+  "desc": "",
+  "culture": "es-es",
+  "intents": [
+    {
+      "name": "command.finish"
+    },
+    {
+      "name": "None"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [],
+  "model_features": [],
+  "regex_features": [],
+  "patterns": [],
+  "utterances": [
+    {
+      "text": "algo",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "cancela",
+      "intent": "command.finish",
+      "entities": []
+    },
+    {
+      "text": "cancelar",
+      "intent": "command.finish",
+      "entities": []
+    },
+    {
+      "text": "esto es genial",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "me encanta vuestro producto",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "quiero darte mi opinión",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "quiero finalizar",
+      "intent": "command.finish",
+      "entities": []
+    },
+    {
+      "text": "quiero salir",
+      "intent": "command.finish",
+      "entities": []
+    },
+    {
+      "text": "sácame de aquí",
+      "intent": "command.finish",
+      "entities": []
+    },
+    {
+      "text": "salir",
+      "intent": "command.finish",
+      "entities": []
+    },
+    {
+      "text": "terminar",
+      "intent": "command.finish",
+      "entities": []
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "luis_schema_version": "3.0.0",
+  "versionId": "0.1",
+  "name": "UberBot_Complaints_EN",
+  "desc": "",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "command.finish"
+    },
+    {
+      "name": "None"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [],
+  "model_features": [],
+  "regex_features": [],
+  "patterns": [],
+  "utterances": [
+    {
+      "text": "cancel",
+      "intent": "command.finish",
+      "entities": []
+    },
+    {
+      "text": "exit",
+      "intent": "command.finish",
+      "entities": []
+    },
+    {
+      "text": "finish",
+      "intent": "command.finish",
+      "entities": []
+    },
+    {
+      "text": "i need this and that and that",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i want ot talk to you",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i want to finish",
+      "intent": "command.finish",
+      "entities": []
+    },
+    {
+      "text": "i want to give feedback",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "quit",
+      "intent": "command.finish",
+      "entities": []
+    },
+    {
+      "text": "something",
+      "intent": "None",
+      "entities": []
+    }
+  ]
+}

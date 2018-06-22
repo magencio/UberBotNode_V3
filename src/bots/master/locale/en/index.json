@@ -1,0 +1,18 @@
+{
+    "conversationUpdate.userConnected": ["Welcome! I'm UberBot, a bot of bots. Say *Hi* to start", "Welcome! I'm UberBot, a bot made of smaller bots. Say *Hi* and we will start"],
+    "master.hi": "Hi there! What can I do for you today?",
+    "master.languageSelection": "Please choose a language\nPor favor, elige un idioma",
+    "master.retryLanguageSelection": "Sorry, I didn't understand that. Please, choose a language\nLo siento, no te he entendido. Por favor, elige un idioma",
+    "master.languageSelectionFailed": "You exceeded the maximum number of attempts",
+    "master.languageModified": "Ok, we will speak English from now on",
+    "master.whatNow": "What else can I do for you?",
+    "master.faqOption": "Ask question",
+    "master.feedbackOption": "Give feedback",
+    "master.complaintsOption": "File complaint",
+    "master.languageOption": "Hablar español", 
+    "master.unknown": "Sorry, I didn't understand that",
+    "confirmation.yesOption": "Yes",
+    "confirmation.noOption": "No",
+    "confirmation.cancelOption": "Cancel",
+    "confirmation.unknown": "Sorry, I didn't understand that. Please, just answer with *yes* or *no*"
+}

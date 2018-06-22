@@ -1,0 +1,9 @@
+{
+    "feedback.welcome": "¡Bienvenido al bot de Opiniones! Por favor, dime tu opinión",
+    "feedback.received": ["Muchas gracias, se la haré llegar a la persona adecuada", "Tu opinión es muy importante para nosotros. Se la enviaré a la persona adecuada"],
+    "feedback.whatNow": "Si tienes alguna otra opinión, dímela",
+    "feedback.finishConfirmation": "¿Estás seguro de que quieres terminar de hablar con el bot de Opiniones?",
+    "feedback.finishOption": "Terminar",
+    "feedback.finishConfirmed": "Ok",
+    "feedback.finishUnconfirmed": "De acuerdo"
+}

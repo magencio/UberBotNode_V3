@@ -1,0 +1,51 @@
+{
+    "name": "uberbotnode_v3",
+    "author": "Alejandro Campos Magencio",
+    "description": "A typescript version of https://github.com/morsh/multilingual-uber-bot, enhanced with some other features",
+    "version": "1.0.0",
+    "license": "MIT",
+    "keywords": [
+        "botbuilder",
+        "botframework",
+        "bots",
+        "chatbots",
+        "azure"
+    ],
+    "homepage": "https://github.com/magencio/uberbotnode_v3#readme",
+    "bugs": {
+        "url": "https://github.com/magencio/uberbotnode_v3/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/magencio/uberbotnode_v3.git"
+    },
+    "scripts": {
+        "start": "node ./app/app.js",
+        "startdev": "nodemon",
+        "postinstall": "tsc",
+        "build": "tsc",
+        "clean": "rimraf ./app/*",
+        "lint": "tslint *.ts -t verbose"
+    },
+    "engines": {
+        "node": "8.9.4"
+    },
+    "dependencies": {
+        "botbuilder": "^3.15.0",
+        "botbuilder-azure": "^3.1.0",
+        "botbuilder-cognitiveservices": "^1.2.0",
+        "botbuilder-instrumentation": "^1.1.18",
+        "nconf": "^0.10.0",
+        "npm": "^6.1.0",
+        "restify": "^7.2.1",
+        "ts-node": "^6.1.1",
+        "typescript": "^2.9.2"
+    },
+    "devDependencies": {
+        "@types/node": "^10.3.3",
+        "@types/restify": "^7.2.0",
+        "nodemon": "^1.17.5",
+        "rimraf": "^2.6.2",
+        "tslint": "^5.10.0"
+    }
+}

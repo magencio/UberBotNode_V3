@@ -1,0 +1,9 @@
+{
+    "faq.welcome": "¡Bienvenido al bot de Preguntas! Por favor, pregúntame tus dudas",
+    "faq.whatNow": "Si tienes alguna otra duda, pregúntame",
+    "faq.finishConfirmation": "¿Estás seguro de que quieres terminar de hablar con el bot de Preguntas?",
+    "faq.finishOption": "Terminar",
+    "faq.finishConfirmed": "Ok",
+    "faq.finishUnconfirmed": "De acuerdo",
+    "qna.notFound": "Lo siento, no he podido encontrar la respuesta"
+}
